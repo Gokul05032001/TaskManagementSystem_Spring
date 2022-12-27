@@ -61,7 +61,7 @@ public class TaskController {
 	
 	
 	@GetMapping("/Taskers")
-	public List<Task> getAllLabTests(){
+	public List<Task> getAllTasks(){
 		
 		return ITaskService.getTaske();
 		
